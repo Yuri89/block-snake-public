@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/style.ts","./src/vite-env.d.ts","./src/game/Global/index.tsx","./src/game/Hud/index.tsx","./src/game/Prefabs/Explosion/index.tsx","./src/game/Prefabs/Scenes/index.tsx","./src/game/Prefabs/Snake/index.tsx"],"version":"5.6.3"}

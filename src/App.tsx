@@ -1,4 +1,4 @@
-import { Suspense, useState } from "react"
+import { Suspense } from "react"
 import { TelaMain } from "./style";
 import { Canvas } from "@react-three/fiber";
 import { Hud as HUD } from "./game/Hud";

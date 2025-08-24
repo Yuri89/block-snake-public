@@ -1,6 +1,5 @@
 import * as THREE from 'three';
-import { useRef, useEffect } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
+import { useFrame } from '@react-three/fiber';
 
 interface Number { x: number, y: number, z: number }
 

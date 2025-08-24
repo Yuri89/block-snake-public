@@ -10,7 +10,7 @@ export default function Snack() {
     const [direcao, setDirecao] = useState<NumTamanho>([1, 0]);
     const [colidiu, setColidiu] = useState(false);
     const intervaloRef = useRef<number | null>(null);
-    let [pontuacao, setPontuacao] = useAtom<number>(scoreAtom)
+    let [, setPontuacao] = useAtom<number>(scoreAtom)
 
     const getRandomPosition = () => {
         return Math.floor(Math.random() * 15) - 7; // Gera um número aleatório entre -7 e 7
